@@ -13,7 +13,7 @@ let image2=document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomImg2);
 
 
-//conditii
+//conditii editare mesaj
  if (randomNr1>randomNr2){
    document.querySelector("h1").innerHTML="Player 1 WINS";
  }
